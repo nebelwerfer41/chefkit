@@ -1,7 +1,7 @@
 # ChefKit
-Web app statica in italiano, senza dipendenze.
+Web app statica per GitHub Pages. Aprire index.html oppure pubblicare la radice del repository.
 
-## GitHub Pages
-Crea un repository pubblico, carica index.html e README.md nella radice. In Settings > Pages seleziona Deploy from a branch, main, /(root), Save. L'indirizzo sarà https://USERNAME.github.io/NOME-REPO/.
+## Cottura
+Catalogo di tagli standard, metodi pertinenti, stime indicative e temperatura minima interna (USDA FoodSafety.gov). Tempi non validati sperimentalmente: verificare sempre la cottura; le stime di scala non sono modelli termici. Preferiti, storico e piano sono locali al browser. Il piano non risolve automaticamente conflitti fra apparecchi. Nessuna integrazione MEATER.
 
-Apri index.html direttamente per usarla in locale. I dati sono salvati nel browser (localStorage). I timer multipli memorizzano la scadenza; i suoni dipendono dalla disponibilità del browser. Le dosi sono indicative; i rapporti del cuociriso sono personalizzabili. Il timer Chemex non è persistente al ricaricamento.
+Il catalogo è la costante `catalog` in index.html; le durate sono intervalli al peso/spessore di riferimento.
